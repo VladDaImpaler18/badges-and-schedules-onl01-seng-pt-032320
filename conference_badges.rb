@@ -22,10 +22,10 @@ end
 
 def printer(names)
   
-  badges = batch_badge_creator(array)
+  badges = batch_badge_creator(names)
   badges.each{ |badge| puts badge}
   
-  master_list= assign_rooms(array)
+  master_list= assign_rooms(names)
   master_list.each{ |roomInfo| puts roomInfo}
 end
   
