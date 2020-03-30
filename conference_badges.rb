@@ -19,3 +19,13 @@ def assign_rooms(array)
   }
   return roomAssignmentArray
 end
+
+def printer(names)
+  
+  badges = batch_badge_creator(array)
+  badges.each{ |badge| puts badge}
+  
+  master_list= assign_rooms(array)
+  master_list.each{ |roomInfo| puts roomInfo}
+end
+  
